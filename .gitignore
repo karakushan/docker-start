@@ -1,6 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
 hosts/*
+!hosts/.gitkeep
 logs/*
+!logs/.gitkeep
 mysql/*
+!mysql/.gitkeep
 www/*
+!www/.gitkeep
 .idea/
