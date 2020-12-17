@@ -2,7 +2,8 @@
 
 ##Пример создания хоста
 
-```server {
+```
+server {
        listen 80;
        index index.php;
        server_name mysli.localhost;
@@ -24,5 +25,8 @@
                try_files $uri $uri/ /index.php?$query_string;
                gzip_static on;
            }
-   }```
+}
+```
+
+
 
